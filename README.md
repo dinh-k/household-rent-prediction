@@ -1,6 +1,6 @@
 # Predicting Rent with Household Characteristics
 ## Background and Overview
-Understanding the factors driving rent variability is essential for property managers and policymakers to ensure effective pricing and equitable housing policies. This project investigates the factors influencing household monthly rent using data from the [2019 American Community Survey (ACS)](2019ACS_housing.csv). By leveraging statistical models, we aim to offer actionable insights for property managers, renters, and policymakers.
+Understanding the factors driving rent variability is essential for property managers and policymakers to ensure effective pricing and equitable housing policies. This project investigates the factors influencing household monthly rent using data from the [2019 American Community Survey (ACS)](2019ACS_housing.csv). By leveraging statistical models, we aim to offer recommendations for property managers and policymakers.
 
 The project focuses on:
 1. **Household Income**: Analyzing its correlation with rent costs.
@@ -11,10 +11,10 @@ The project focuses on:
 Technical details, including the data processing steps and analysis scripts, are available [here](household_rent_prediction.ipynb).
 
 ## Data Overview
-Our dataset from the 2019 American Community Survey (ACS) involves over 3.5 million households. We preprocessed the data to handle missing values, normalize skewed variables via square root transformations, and simplify categorical variables. This resulted in 361 cleaned observations. Key variables include:
+Our 2019 American Community Survey (ACS) dataset involves over 3.5 million households. We preprocessed the data to handle missing values, normalize skewed variables via square root transformations, and simplify categorical variables. This resulted in 361 cleaned observations. Key variables include:
 - Response Variable: Monthly Rent each household pays in a month, in rounded dollar amounts.
 - Explanatory Variables:
-  - Household Income: Household income (in dollars) in the past 12 months at the time the survey was conducted.
+  - Household Income: Household income (in dollars) in the past 12 months when the survey was conducted.
   - Number of Rooms: Total rooms in the property.
   - Internet Access: A categorical variable with three levels: paid access, unpaid access, and no access.
   - Utility Costs: Monthly gas and electricity expenses in USD.
