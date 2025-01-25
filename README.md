@@ -2,15 +2,9 @@
 ## Background and Overview
 Understanding the factors driving rent variability is essential for property managers and policymakers to ensure effective pricing and equitable housing policies. This project investigates the factors influencing household monthly rent using data from the [2019 American Community Survey (ACS)](2019ACS_housing.csv). By leveraging statistical models, we aim to offer recommendations for property managers and policymakers.
 
-The project focuses on:
-1. **Household Income**: Analyzing its correlation with rent costs.
-2. **Property Features**: Evaluating the impact of the number of rooms and utility costs.
-3. **Internet Access**: Exploring its association with higher rent prices.
-4. **Categorical Predictions**: Differentiating "high rent" and "low rent" households using logistic regression.
+Comprehensive technical details, including data processing steps, code, and full analysis, are available in [household_rent_prediction.ipynb](household_rent_prediction.ipynb).
 
-Technical details, including the data processing steps and analysis scripts, are available [here](household_rent_prediction.ipynb).
-
-## Data Overview
+## Data Structure & Initial Checks
 Our 2019 American Community Survey (ACS) dataset involves over 3.5 million households. We preprocessed the data to handle missing values, normalize skewed variables via square root transformations, and simplify categorical variables. This resulted in 361 cleaned observations. Key variables include:
 - Response Variable: Monthly Rent each household pays in a month, in rounded dollar amounts.
 - Explanatory Variables:
@@ -18,6 +12,11 @@ Our 2019 American Community Survey (ACS) dataset involves over 3.5 million house
   - Number of Rooms: Total rooms in the property.
   - Internet Access: A categorical variable with three levels: paid access, unpaid access, and no access.
   - Utility Costs: Monthly gas and electricity expenses in USD.
+  - Number of Children in the household.
+<img src="https://github.com/user-attachments/assets/5c2019af-4908-42b8-8009-8bc10d8fe1fa" alt="image" width="400"/>
+<img src="https://github.com/user-attachments/assets/55ef5d46-c5c0-4632-a98f-11b1711df31c" alt="image" width="405"/>
+<img src="https://github.com/user-attachments/assets/d97b902e-9317-4e52-8e2e-1dc333da1846" alt="image" width="400"/>
+<img src="https://github.com/user-attachments/assets/df1ec4d1-e057-4b4c-b37d-e0e6cd1bdc58" alt="image" width="200"/>
 
 ## Executive Summary
 Key findings from the analysis include:
