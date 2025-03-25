@@ -39,3 +39,17 @@ Key findings from the analysis include:
 - Since the number of children has little impact on rent, *marketing strategies could focus on broader appeal*. Highlighting neighborhood quality, proximity to schools, and versatile layouts may attract a wider audience, while shared amenities like playgrounds and community spaces could boost occupancy and appeal to both families and professionals.
 - Household income is a strong predictor of rent, reflecting tenants' economic capacity. *Developing tiered property offerings—budget, mid-tier, and luxury*—could help cater to different income levels within the market. *Introducing flexible lease terms for premium properties* might attract high-income tenants and help maximize rental income across various property tiers.
 - Gas and electricity costs do not significantly influence rent, suggesting tenants prioritize other features. *Allowing tenants to pay utilities directly* may free up resources to enhance amenities like energy-efficient appliances and modern internet infrastructure, reducing costs and boosting property appeal.
+
+## Acknowledgments
+I would like to express my sincere appreciation to Professor Pamela B. Matheson who taught me Intermediate Statistics at Amherst College for her invaluable feedback and support in drafting the early stages of this project. Her insights were crucial in helping shape the project’s focus and approach.
+
+## Project Workflow and Tools
+This project was first developed in R on a local desktop environment using RStudio as the IDE and later converted into an IPython Notebook hosted on Google Colab for better collaboration and portability. It utilizes the following R packages:
+
+- Data Manipulation: `dplyr`, `tidyr`, `mosaic`
+- Visualization: `ggplot2`, `ggrepel`, `GGally`, `gridExtra`, `grid`, `DescTools`
+- Statistical Modeling & Machine Learning: `car`, `leaps`, `broom`, `Stat2Data`, `caret`, `pROC`
+- Web Scraping: `rvest`
+- Other Utilities: `methods`, `knitr`
+
+Key project settings include configuring `opts_chunk$set()`, `options(digits)`, and `trellis.par.set()`.
